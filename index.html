@@ -4,162 +4,219 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio | Wasis Yoga Wicaksono</title>
+  <title>Wasis Yoga Wicaksono | Portfolio</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css"/>
+
+  <!-- FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- ICON -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header>
-    <div class="container nav">
+    <div class="container navbar">
+
       <h2 class="logo">Wasis<span>Yoga</span></h2>
 
       <nav>
         <a href="#home">Home</a>
         <a href="#about">Tentang</a>
-        <a href="#skills">Kemampuan</a>
+        <a href="#skills">Skill</a>
         <a href="#contact">Kontak</a>
       </nav>
+
     </div>
   </header>
 
   <!-- HERO -->
   <section class="hero" id="home">
-    <div class="container hero-content">
+
+    <div class="container hero-container">
 
       <div class="hero-text">
-        <h3>Halo, Saya</h3>
-        <h1>Wasis Yoga Wicaksono</h1>
-        <h2>Mahasiswa Teknik Informatika</h2>
 
-        <p>
-          Saya memiliki minat di bidang teknologi, pengembangan website,
-          jaringan komputer, dan desain digital. 
-          Senang belajar hal baru dan bekerja dalam tim.
+        <p class="top-text">PORTFOLIO WEBSITE</p>
+
+        <h1>
+          Halo, Saya <br>
+          <span>Wasis Yoga Wicaksono</span>
+        </h1>
+
+        <h3>Mahasiswa Teknik Informatika</h3>
+
+        <p class="desc">
+          Memiliki minat di bidang teknologi, website development,
+          desain digital, dan jaringan komputer.
+          Senang belajar hal baru dan berkembang bersama tim.
         </p>
 
-        <div class="btn-group">
-          <a href="#contact" class="btn">Hubungi Saya</a>
-          <a href="#about" class="btn btn-outline">Lihat Profil</a>
+        <div class="hero-button">
+          <a href="#contact" class="btn">
+            Hubungi Saya
+          </a>
+
+          <a href="#about" class="btn-outline">
+            Tentang Saya
+          </a>
         </div>
+
+        <div class="social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+
       </div>
 
       <div class="hero-image">
-        <div class="circle"></div>
+
+        <div class="glow"></div>
+
         <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="profile">
+
       </div>
 
     </div>
+
   </section>
 
   <!-- ABOUT -->
   <section class="about" id="about">
+
     <div class="container">
 
-      <div class="section-title">
+      <div class="title">
+        <p>ABOUT ME</p>
         <h2>Tentang Saya</h2>
       </div>
 
       <div class="about-box">
-        <p>
-          Nama saya <strong>Wasis Yoga Wicaksono</strong>. 
-          Saya mahasiswa Universitas Duta Bangsa Surakarta 
-          program studi Teknik Informatika semester 6.
-          Memiliki kemampuan dasar dalam pemrograman, 
-          jaringan komputer, serta pengoperasian Microsoft Office.
-        </p>
+
+        <div class="about-card">
+          <i class="fa-solid fa-user-graduate"></i>
+          <h3>Pendidikan</h3>
+          <p>
+            Universitas Duta Bangsa Surakarta
+            Teknik Informatika Semester 6
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Programming</h3>
+          <p>
+            HTML, CSS, JavaScript,
+            PHP Dasar, Python
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-people-group"></i>
+          <h3>Soft Skill</h3>
+          <p>
+            Komunikasi, teamwork,
+            problem solving,
+            disiplin dan tanggung jawab
+          </p>
+        </div>
+
       </div>
 
     </div>
+
   </section>
 
   <!-- SKILLS -->
   <section class="skills" id="skills">
+
     <div class="container">
 
-      <div class="section-title">
-        <h2>Kemampuan</h2>
+      <div class="title">
+        <p>MY SKILLS</p>
+        <h2>Kemampuan Saya</h2>
       </div>
 
-      <div class="skill-grid">
+      <div class="skill-box">
 
-        <div class="card">
-          <h3>Teknis</h3>
-          <ul>
-            <li>Microsoft Office</li>
-            <li>Dasar Jaringan Komputer</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Python</li>
-            <li>PHP Dasar</li>
-          </ul>
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <div class="bar">
+            <span style="width:90%"></span>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>Non Teknis</h3>
-          <ul>
-            <li>Komunikasi & Kerjasama Tim</li>
-            <li>Problem Solving</li>
-            <li>Cepat Belajar</li>
-            <li>Disiplin & Bertanggung Jawab</li>
-          </ul>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <div class="bar">
+            <span style="width:85%"></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="bar">
+            <span style="width:70%"></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Python</h3>
+          <div class="bar">
+            <span style="width:75%"></span>
+          </div>
         </div>
 
       </div>
 
     </div>
-  </section>
 
-  <!-- EDUCATION -->
-  <section class="education">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Pendidikan</h2>
-      </div>
-
-      <div class="edu-card">
-        <h3>Universitas Duta Bangsa Surakarta</h3>
-        <p>Teknik Informatika | 2023 - Sekarang</p>
-      </div>
-
-    </div>
   </section>
 
   <!-- CONTACT -->
   <section class="contact" id="contact">
+
     <div class="container">
 
-      <div class="section-title">
-        <h2>Kontak</h2>
+      <div class="title">
+        <p>CONTACT</p>
+        <h2>Hubungi Saya</h2>
       </div>
 
       <div class="contact-box">
 
-        <div class="contact-item">
-          <span>📞</span>
+        <div class="contact-card">
+          <i class="fa-solid fa-phone"></i>
           <p>0813-9157-3170</p>
         </div>
 
-        <div class="contact-item">
-          <span>📧</span>
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
           <p>wasisyogakriyan@gmail.com</p>
         </div>
 
-        <div class="contact-item">
-          <span>📍</span>
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
           <p>Kriyan, Babadan</p>
         </div>
 
       </div>
 
     </div>
+
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2026 Wasis Yoga Wicaksono | Portfolio Github Pages</p>
+    <p>
+      © 2026 Wasis Yoga Wicaksono | Github Portfolio
+    </p>
   </footer>
 
 </body>
