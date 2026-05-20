@@ -17,6 +17,12 @@
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 </head>
+  <script>
+  window.addEventListener("scroll", function(){
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 50);
+  });
+</script>
 <body>
 
   <!-- NAVBAR -->
@@ -67,14 +73,20 @@
           </a>
         </div>
 
-        <div class="social">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
+<div class="social">
+  <a href="https://instagram.com/USERNAME" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
 
-      </div>
+  <a href="https://github.com/USERNAME" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
 
+  <a href="https://linkedin.com" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+        
       <div class="hero-image">
 
         <div class="glow"></div>
